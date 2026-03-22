@@ -4,7 +4,7 @@
 
 A BLE security research tool demonstrating zero-authentication control of IKEA IDASEN and other Linak-based standing desks. No pairing, app, or PIN. Just two bytes and your desk moves!
 
-## The Vulnerability
+## The Vulnerability... or a Feature...
 
 The Linak BLE motor controller inside millions of standing desks exposes GATT services with **zero authentication**. Any BLE-capable device within ~30 feet can:
 
@@ -30,7 +30,7 @@ If your desk advertises BLE service UUID `99FA0001-338A-1024-8A49-009C0215F78A`,
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/swiz-ble-desk-ctrl.git
+git clone https://github.com/0xXyc/swiz-ble-desk-ctrl.git
 cd swiz-ble-desk-ctrl
 pip install bleak
 ```
